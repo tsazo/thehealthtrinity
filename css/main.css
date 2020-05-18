@@ -7,16 +7,71 @@
   min-height: 500px;
   background-image: url('../images/me.JPG');
   background-size: cover;
-  background-position: 50% 64%;
+  background-position: 50% 66%;
   background-repeat: no-repeat;
+  color: white;
 }
 
-/*nav{
+.navbar {
+	padding-top: 3vw;
+    padding-bottom: 3vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.fixed-top {
+	position: absolute;
+}
+
+#button {
 	color: white;
+	border-color: white;
 }
 
+.navbar-brand, #icons {
+    font-size: calc(1.2vw + 1rem);
+}
 
-.container-fluid h2 {
+header h1 {
+	font-size: calc(3.6vw + 1rem);
+}
+
+.container {
+	padding-right: 4vw;
+	padding-left: 4vw;
+}
+
+i {
+	color: white;
+	transition: 0.3s;
+}
+
+i:hover {
+	color: grey;
+	transition: 0.3s;
+}
+
+/*
+@media screen and (max-width: 1295px) and (min-width: 0px) and (orientation: landscape){
+	.navbar-brand {
+    	font-size: calc(1.2vw + 1rem);
+    }
+}
+
+@media screen and (max-width: 1295px) and (min-width: 0) and (orientation: portrait){
+	.navbar-brand {
+    	font-size: calc(1.2vw + 1rem);
+    }
+}
+
+@media screen and (max-width: 1295px) and (min-width: 0) and (orientation: portrait){
+	h1 {
+    	font-size: calc(3.6vh + 1rem);
+	}
+}*/
+
+
+/*.container-fluid h2 {
 	position: relative;
     z-index: 2;
     width: 100%;
@@ -44,10 +99,10 @@ img {
     object-position: 64.0125% 100%;
     object-fit: cover;
     overflow: hidden;
-}
+}*/
 
 @media only screen and (max-width: 799px){
 	.container-fluid h2{
 		padding: 6vw;
 	}
-}*/
+}
