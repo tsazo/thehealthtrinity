@@ -1,0 +1,45 @@
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation Bar CSS */
+
+.navbar {
+	padding-top: 3vw;
+    padding-bottom: 3vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.fixed-top {
+	position: absolute;
+}
+
+.container {
+	padding-right: 4vw;
+	padding-left: 4vw;
+}
+
+#button {
+	border-color: white;
+	color: white;
+}
+
+.navbar-brand {
+    font-size: calc(1.2vw + 1rem);
+}
+
+#icons{
+	font-size: calc(1.2vw + 0.5rem);
+}
+
+i {
+	margin: 0 4px;
+	color: black;
+	transition: 0.3s;
+}
+
+i:hover {
+	color: grey;
+	transition: 0.3s;
+}
