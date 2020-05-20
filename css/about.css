@@ -1,0 +1,17 @@
+#icon1, #icon2 {
+	font-size: 20px;
+	color: black;
+	margin-bottom: 10px;
+	padding: 10px;
+	transition: 0.3s;
+}
+
+#icon1:hover, #icon2:hover {
+	color: #8DD9C0;
+	transition: 0.3s;
+}
+
+.right {
+	background-size: cover;
+	background-position: left;
+}
